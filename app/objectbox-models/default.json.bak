@@ -1,0 +1,71 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:2573248270777415350",
+      "lastPropertyId": "3:2805064150500652187",
+      "name": "Customer",
+      "properties": [
+        {
+          "id": "1:4642163320617721622",
+          "name": "firstName"
+        },
+        {
+          "id": "2:2009606278917140165",
+          "name": "lastName"
+        },
+        {
+          "id": "3:2805064150500652187",
+          "name": "id"
+        }
+      ]
+    },
+    {
+      "id": "2:6373338003641484225",
+      "lastPropertyId": "2:8761303217730356833",
+      "name": "Table",
+      "properties": [
+        {
+          "id": "1:1654204983420344946",
+          "name": "id"
+        },
+        {
+          "id": "2:8761303217730356833",
+          "name": "free"
+        }
+      ]
+    },
+    {
+      "id": "3:5651690534905182975",
+      "lastPropertyId": "5:2871222488963523767",
+      "name": "SeatPlan",
+      "properties": [
+        {
+          "id": "3:7021036284102293971",
+          "name": "id"
+        },
+        {
+          "id": "4:3808325975198669648",
+          "name": "tableId"
+        },
+        {
+          "id": "5:2871222488963523767",
+          "name": "customerId"
+        }
+      ]
+    }
+  ],
+  "lastEntityId": "3:5651690534905182975",
+  "lastIndexId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 2,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    2557296721127169974,
+    6388463304992524651
+  ],
+  "version": 1
+}

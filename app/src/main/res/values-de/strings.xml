@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Reserve</string>
+    <string name="delete">Löschen</string>
+    <string name="swap">Wechsel</string>
+    <string name="search">Suche</string>
+    <string name="warning">Warnung</string>
+    <string name="occupied">Belegt</string>
+</resources>
